@@ -18,6 +18,7 @@ const deleteFromEmployeeByKey=(object,key,value)=>{
     const newObj = {...object}
     newObj[key] = value;
     delete newObj.key;
+    console.log(newObj);
     return newObj;
 }
 
